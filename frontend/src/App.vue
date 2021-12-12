@@ -172,8 +172,11 @@
 
 <style>
 /* 以下样式是为了适应例子父级的宽高而设置 */
-body{
+body {
     height:100%;
+}
+.monitor-navigation-content {
+    height: calc(100vh - 136px)
 }
 .bk-navigation {
   width: 100%;

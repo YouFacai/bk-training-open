@@ -17,6 +17,7 @@ import { bus } from '@/common/bus'
 import AuthComponent from '@/components/auth'
 import '@/common/bkmagic'
 
+Vue.config.devtools = true
 Vue.component('app-exception', Exception)
 Vue.component('app-auth', AuthComponent)
 
