@@ -1,0 +1,15 @@
+.h-100 {
+    height: 100%;
+}
+
+.content-box {
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header-box {
+    display: flex;
+}
